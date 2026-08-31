@@ -25,3 +25,4 @@ jobs:
       - name: Validate Files & JSON
         run: |
           node -e "const fs = require('fs'); const manifest = JSON.parse(fs.readFileSync('manifest.json', 'utf8')); console.log('✓ Manifest valid:', manifest.name); const html = fs.readFileSync('index.html', 'utf8'); if (!html.includes('<!doctype html>')) throw new Error('Invalid HTML'); console.log('✓ HTML valid (bytes: ' + html.length + ')');"
+
