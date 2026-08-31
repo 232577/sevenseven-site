@@ -1,0 +1,18 @@
+{
+  "name": "Sevenseven 数字工作台",
+  "short_name": "Sevenseven",
+  "description": "Sevenseven 的公开个人数字工作台，发布轻量工具与边缘服务。",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f7f9ff",
+  "theme_color": "#173fee",
+  "icons": [
+    {
+      "src": "favicon.svg",
+      "sizes": "64x64 128x128 256x256 512x512",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
+
